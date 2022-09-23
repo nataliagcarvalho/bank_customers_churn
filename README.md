@@ -425,7 +425,7 @@ Now, looking for the churn between the countries, Germany has 2x more than Franc
 
 ***
 
-Conclusion and Recommendation
+# Conclusion and Recommendation
 
 After all the data analysis, my conclusions and recommendations are:
 
@@ -443,7 +443,7 @@ After all the data analysis, my conclusions and recommendations are:
 
 ***
 
-Next Step: Machine Learning Prediction Model.
+## Next Step: Machine Learning Prediction Model.
 
 
 
