@@ -86,6 +86,8 @@ FROM `proj6-bank-churn.data.data`;
 
 As it is, we won't need to work on it.
 
+***
+
 # Exploratory Analysis
 
 #### Count total clients
@@ -363,6 +365,8 @@ ORDER BY 1;
 
 After understand our clients' profile, we will analyze the churn according to our variables, which is the main goal of this project.
 
+***
+
 # Churn Analysis
 
 As I've already done the Exploratory Analysis and organized our data with all the necessary segmentations, the churn analysis will be done at Power BI. All the charts will be considered by percentage doing a comparative between churn and retention clients.
@@ -374,4 +378,72 @@ We can see that the churn rate is 20,4% and the retention is 79,6%.
 ![image](https://user-images.githubusercontent.com/106877571/191994172-c2fe2532-d1cb-413d-8499-fc034517e194.png)
 
 When we analyze the gender, we can see that despite the male customer is higher, the female churn is higher.
+
+![image](https://user-images.githubusercontent.com/106877571/192061040-682e9605-0e7d-498d-a057-17c8cfe4b597.png)
+
+Considering the age, we clearly see that the range between 46 and 65 has almost 50% of churn, which is incredible high. Even tough the clients majority is at range between 18 and 45, the churn rate is still significant for the range of 46 and 65.
+
+![image](https://user-images.githubusercontent.com/106877571/192061323-e61cf4e0-6f9f-4f8f-b481-4d5a48ac3022.png)
+
+Comparing when the client is and is not active, we can see that the inactive members has almost 2x churn than the active ones. 
+
+![image](https://user-images.githubusercontent.com/106877571/192061409-7910424c-332f-49a9-a427-8ba10730880d.png)
+
+Howerver, when it's about the credit card, it is irrelevant.
+
+![image](https://user-images.githubusercontent.com/106877571/192061462-0d8e50b1-1c7a-4745-a138-447eefac9d16.png)
+
+Such as the estimated salary, no relevance between it and churn.
+
+![image](https://user-images.githubusercontent.com/106877571/192061498-e29a1ffe-c1c0-48bf-8beb-0007340ca63e.png)
+
+But when we consider the balance, we clearly identify that the higher the balance, higher the churn.
+
+![image](https://user-images.githubusercontent.com/106877571/192061551-bf010c75-9b9e-4797-820f-5c6e2d3fff56.png)
+
+As I've done the Credit Score segmentation considering the FICO Score, we can see that it's also not relevant for our churn rate.
+
+![image](https://user-images.githubusercontent.com/106877571/192061659-1a680c42-fa10-4ad9-9790-b3f52906a455.png)
+
+Such as before, when we analyze the tenure, it's also not relevant for the churn rate. However, I would like to call atention for this less than one year metric.
+
+![image](https://user-images.githubusercontent.com/106877571/192061742-1c9a3324-6c1d-46fb-9299-a0925e1a0fe7.png)
+
+According to Accenture, during the first year the bank companies tend to have a 25% churn rate (and our client has 23%). However, the churn rate annual goal is 11% and our client is almost 2x more.
+
+![image](https://user-images.githubusercontent.com/106877571/192061908-fe5339f3-bbbf-44f7-b464-1f04ef18ba79.png)
+
+Considering the number of products that our clients have, we clearly see that 3 and 4 (mainly 4) has a expressive churn rate. And it's important to better understand the numbers.
+
+![image](https://user-images.githubusercontent.com/106877571/192061996-f05690bb-d01c-4ad6-a497-33eef26ba078.png)
+
+When we see in details the numbers from 4 products, we have less than 1% of clients, so we can't assume that it's relevant only because of the number of 4 products.
+
+![image](https://user-images.githubusercontent.com/106877571/192062128-bef72d64-31a9-49cc-83cc-27ae981f0b68.png)
+
+Now, looking for the churn between the countries, Germany has 2x more than France and Spain. And France has 2x more clients than Germany.
+
+***
+
+Conclusion and Recommendation
+
+After all the data analysis, my conclusions and recommendations are:
+
+- People aged between 46 and 65 have higher incidences of churn. As a recommendation, the bank could create new products and services specifically for this age group, offer lower interest rates for loans and improve private pension conditions, as this is an age group that is possibly looking for better profitability conditions for retirement;
+
+- Germany is the country with the highest incidence of churn, with twice the percentage of France and Spain. As a recommendation, identify the differences between countries in terms of ATM availability and ease of access. And, through this analysis, incorporate changes in Germany;
+
+- Inactive customers have almost double the percentage of active churn. With this, the recommendation is to segment these customers in order to identify better marketing strategies for engagement;
+
+- As the account balance increases, the greater the incidence of churn. With this, it is possible to deduce that the products and services for this group of customers are not being satisfactory. Therefore, I recommend a satisfaction survey with these potential customers in order to identify better offer conditions in order to reduce churn;
+
+- Women tend to have more churn. With this, it is recommended to attract the female audience through marketing campaigns such as advertising with women telling their stories of overcoming/financial planning and offering special rates;
+
+- Although we have a high churn rate for customers with 3 or more products, it is only 3% of the total number of customers, which we cannot consider significant for our conclusion.
+
+***
+
+Next Step: Machine Learning Prediction Model.
+
+
 
