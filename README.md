@@ -391,7 +391,7 @@ Comparing when the client is and is not active, we can see that the inactive mem
 
 Howerver, when it's about the credit card, it is irrelevant.
 
-![image](https://user-images.githubusercontent.com/106877571/192061462-0d8e50b1-1c7a-4745-a138-447eefac9d16.png)
+![image](https://user-images.githubusercontent.com/106877571/192062758-8367e2be-9a8e-4ae2-a0b9-1f124e7155fe.png)
 
 Such as the estimated salary, no relevance between it and churn.
 
