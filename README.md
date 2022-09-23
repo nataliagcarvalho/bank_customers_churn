@@ -6,7 +6,8 @@
 
 This is a project from the Laboratoria & IBM Data Analyst Certification.
 
-In this project, I had to choose by my own the topic and dataset that I would like to work with. My choice was a dataset about a bank's customers churn.
+In this project, I had to choose by my own the topic and dataset that I would like to work with such as my business questions. 
+My choice was a dataset about a bank's customers churn.
 
 ***
 
