@@ -169,7 +169,7 @@ FROM `proj6-bank-churn.data.data`;
 ```
 ![image](https://user-images.githubusercontent.com/106877571/191951758-61e17b66-0481-4976-89e1-2f01b18834ff.png)
 
-##### Clients' Distribution by Age
+#### Clients' Distribution by Age
 ```sql
 SELECT
   Age_Segment,
@@ -222,7 +222,7 @@ WHERE IsActiveMember = 0;
 ```
 ![image](https://user-images.githubusercontent.com/106877571/191954201-3a81d62a-b9bc-4106-8898-9d5d5218294e.png)
 
-#### Create a column that answers 'Yes' or 'No' for 'IsActiveMember'
+##### Create a column that answers 'Yes' or 'No' for 'IsActiveMember'
 ```sql
 CREATE OR REPLACE TABLE `proj6-bank-churn.data.data`
 AS
