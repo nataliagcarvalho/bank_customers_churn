@@ -443,7 +443,7 @@ After all the data analysis, my conclusions and recommendations are:
 
 ***
 
-## Next Step: Machine Learning Prediction Model.
+## Next Step: Machine Learning Prediction Model
 
 
 
